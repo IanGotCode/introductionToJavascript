@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Page</title>
+	<script type="text/javascript">
+			function funcClick() {
+				var Ian = document.getElementById("paragraph");
+					
+				var newPara = "Hi I am javascript I can change at any time.";
+
+				for(i = 0; i < newPara; i++){
+						newPara + Ian[i];
+				}
+				Ian.innerHTML = newPara;
+			}
+
+	</script>
+</head>
+<body>
+	<p id="paragraph">Hello this is a demo paragraph and javascript can change the content at any moment.</p>
+	<button type="button" onclick="funcClick()">Click Me to change the paragraph content!!!</button>
+</body>
+</html>
